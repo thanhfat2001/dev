@@ -1,0 +1,1 @@
+print("Chao mừng K28 đến với khoa CNTT")

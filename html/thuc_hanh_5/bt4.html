@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Demo JavaScript</title>
+    </head>
+    <body>
+        <p id="thoigian"></p>
+        <div id="dongho"></div>
+        <script type="text/javascript" charset="utf-8">
+            document.getElementById("thoigian").innerHTML = "Thời gian hiện tại";
+            var date = new Date();
+            var gio = date.getHours();
+            var phut = date.getMinutes();
+            var giay = date.getSeconds();
+            //Lấy giờ hệ thống hiện tại
+            document.getElementById('dongho').innerHTML = gio + ':' + phut + ':' + giay;
+            
+
+        </script>
+    </body>
+</html>
